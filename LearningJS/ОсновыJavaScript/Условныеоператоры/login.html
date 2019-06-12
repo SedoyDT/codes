@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+             
+             var login=prompt('кто пришел ? ', "");
+             if (login == "admin") {
+                var pass= prompt( "Пароль?",'' );
+                if (pass==1234){
+                    alert("Правильный пароль")
+                }else if(pass == null) {
+                    alert("Вход отменен!")
+                }else ("wrong pass");
+
+               } else if(login ==null){
+                   alert("вход отменен")
+               }else {
+                   alert("Я вас не знаю")
+               }
+        </script>
+</body>
+</html>
